@@ -11,12 +11,15 @@ output: html_document
 
 * We wash Kali's water bowl every morning and her food bowl after each meal. She gets filtered tap water.
 * Kali currently eats [Taste of the Wild](https://www.chewy.com/taste-wild-pacific-stream-grain-free/dp/181318) kibble
-  + We estimate her caloric needs to be around 830 - 900 KCal/day
+  + We estimate her caloric needs to be around 800 KCal/day
   + Her current kibble has a caloric density of 3.6 Kcal/gram
-* On inactive days (e.g. no hiking, no trail running), she should eat **100** grams of kibble in the morning and **130** grams of kibble in the evening (or thereabouts)
-* On active days, she should eat **110 - 120** grams of kibble in the morning and **120-140** grams of kibble in the evening.
+* On inactive days (e.g. no hiking, no trail running), she should eat **90** grams of kibble in the morning and **120** grams of kibble in the evening (or thereabouts; total **210** grams).
+  + We feed her in the morning and again in the evening because she cannot ingest enough food in one sitting to meet her caloric requirements.
+  + Typically we leave her food out for less than an hour--we are trying to encourage her to not graze on her food through the day.
+* On active days, she should eat **100** grams of kibble in the morning and **130** grams of kibble in the evening (total: **230** grams).
 * Typically she eats at 8am in the morning and 6pm in the evening. This is fairly flexible, but she is unlikely to be hungry before 8am.
 * She can be fussy with her food. In that case, we use the vati and a pestle to crush some kibble (around 5-10 pieces) and sprinkle it on top of the remaining food. Otherwise, you can add some hot water from the tap and sprinkle it on top of some of the food. We sprinkle hot water on a subset of the food because if all of the food gets wet and she ignores it, the food has to get thrown away.
+  + Dogs cannot easily digest food that is as salty or fatty as food that humans can easily process. So when we add chicken or vegetable stock to her food to help her have a better appetite, we make sure to use no-sodium or very low-sodium stock (usually homemade).
 * If these tricks do not work, you can try adding a little bit of vegetable oil (we just use olive oil) to her food, or squeezing some watermelon on top of it, or sprinkling some milk.
 * We brush Kali's teeth at night. We wet her toothbrush, squeeze some toothpaste on it, and brush it over her teeth. If that is infeasible, you can put some toothpaste on her kong and let her play with that toy. And you can let her lick and chew at her toothbrush with toothpaste on it.
 * We comb Kali once every 2-3 days using the Furminator fur rake.
@@ -54,6 +57,7 @@ Kali knows the following commands. The commands in **bold** have high adherence;
 * **Stay**
 * *Come here*
 * **Release** (to end a successful stay or wait)
+* *Stand* (stand up from a down, useful for paw washing)
 * **Heel** (walk alongside me; reinforced by putting your hand in front of her face and/or shortening the leash)
 * *Spin*
 * **Gong Xi**
@@ -69,6 +73,7 @@ Kali knows the following commands. The commands in **bold** have high adherence;
 * Cross paws
 * Place (go to a mat or a specific location)
 * Speak (bark on command)
+* Footsie (come between legs and stand on feet)
 
 ### Walking & Exercise
 
