@@ -1,0 +1,13 @@
+---
+title: "Recipes"
+author: "The Deshchangs"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+A barebones compendium of recipes, including:
+
+* [Soy Braised Bamboo Shoots](https://github.com/charlottehchang/Recipes/blob/master/docs/FeedFeed/SoyBraisedBambooShoots.md)
+* [Tofu Banh Mi](https://github.com/charlottehchang/Recipes/blob/master/docs/FeedFeed/TofuBanhMi.md)
+* [Kulfi](https://github.com/charlottehchang/Recipes/blob/master/docs/FeedFeed/kulfi.md)
+* [Paneer Fry](https://github.com/charlottehchang/Recipes/blob/master/docs/FeedFeed/paneerfry.md)

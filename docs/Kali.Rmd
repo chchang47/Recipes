@@ -1,0 +1,104 @@
+---
+title: "Caring for Kalimirchi"
+author: "The Deshchangs"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+## Care guide for Kali
+
+### Feeding and general care
+
+* We wash Kali's water bowl every morning and her food bowl after each meal. She gets filtered tap water.
+* Kali currently eats [Taste of the Wild](https://www.chewy.com/taste-wild-pacific-stream-grain-free/dp/181318) kibble
+  + We estimate her caloric needs to be around 830 - 900 KCal/day
+  + Her current kibble has a caloric density of 3.6 Kcal/gram
+* On inactive days (e.g. no hiking, no trail running), she should eat **100** grams of kibble in the morning and **130** grams of kibble in the evening (or thereabouts)
+* On active days, she should eat **110 - 120** grams of kibble in the morning and **120-140** grams of kibble in the evening.
+* Typically she eats at 8am in the morning and 6pm in the evening. This is fairly flexible, but she is unlikely to be hungry before 8am.
+* She can be fussy with her food. In that case, we use the vati and a pestle to crush some kibble (around 5-10 pieces) and sprinkle it on top of the remaining food. Otherwise, you can add some hot water from the tap and sprinkle it on top of some of the food. We sprinkle hot water on a subset of the food because if all of the food gets wet and she ignores it, the food has to get thrown away.
+* If these tricks do not work, you can try adding a little bit of vegetable oil (we just use olive oil) to her food, or squeezing some watermelon on top of it, or sprinkling some milk.
+* We brush Kali's teeth at night. We wet her toothbrush, squeeze some toothpaste on it, and brush it over her teeth. If that is infeasible, you can put some toothpaste on her kong and let her play with that toy. And you can let her lick and chew at her toothbrush with toothpaste on it.
+* We comb Kali once every 2-3 days using the Furminator fur rake.
+
+#### Snacks
+
+* Kali has the bag of Zuke's treats in the bag on top of the washing machine.
+* She also enjoys her Easy Cheese, which is in the aerosol can in the second dog bag in Nikhil's room.
+* Kali enjoys eating:
+  + watermelon (small pieces)
+  + carrot (sometimes, tiny pieces)
+  + apple (sometimes, tiny pieces; she likes sweet apples like Fuji rather than tangy ones like Pink Lady)
+  + white nectarine (small pieces)
+  + banana (small pieces and small quantity)
+  + blueberries (sometimes we have to smush one open to entice her)
+  + mango (and mango lassi)
+* We give her treats when she behaves well on walks (we just put some Zuke's treats in a Ziploc bag, though we haven't done this since we moved from Tennessee). She gets 1 treat for each instance of good behavior (e.g. ignoring a squirrel that she was inclined to chase).
+* She can also have a small fruit or food treat in the afternoon. We typically do not table feed her.
+
+Toxic foods for dogs [include](https://www.akc.org/expert-advice/nutrition/fruits-vegetables-dogs-can-and-cant-eat/):
+
+* cherries
+* grapes
+* chocolate
+* onions
+* avocado
+
+### Commands
+
+Kali knows the following commands. The commands in **bold** have high adherence; *italics*, slightly less adherence; and normal font denotes questionable adherence.
+
+* **Sit**
+* **Down**
+* **Wait** (useful when you want her to sit/down while you open a door)
+* **Stay**
+* *Come here*
+* **Release** (to end a successful stay or wait)
+* **Heel** (walk alongside me; reinforced by putting your hand in front of her face and/or shortening the leash)
+* *Spin*
+* **Gong Xi**
+* **Take it** (mostly used to get her to eat food)
+* **Leave it** (drop the ball or ignore the exciting squirrel)
+* *Look at me* (useful to obtain Kali's attention when she is distracted by something enticing like a squirrel)
+* *Point* (if you stick out two outstretched fingers in a point, Kali should walk to the point)
+* *Paw* (to untangle herself from her own leash)
+* Shake (shake hands)
+* Play Bow
+* Roll over
+* Weave (walk through legs like weaving poles)
+* Cross paws
+* Place (go to a mat or a specific location)
+* Speak (bark on command)
+
+### Walking & Exercise
+
+* Kali goes outside twice a day (on two walks, or a walk + hike or run).
+* We ask Kali to sit before we put on her collar and leash to reinforce good, calm behavior.
+* In addition to her walks, we let Kali in the backyard first thing in the morning and in the evening after dinner. If we are home, we also let her play in the backyard in the afternoon.
+  + Kali may poop in the backyard in the morning before eating and before her walk.
+* Kali is an escape artist so she cannot be left in the backyard alone for a long time.
+* We take her out in the morning between 7:30am - 10am and typically walk her for 10-20 minutes.
+    + Usually Kali will poop on a longer walk.
+* Her evening walk happens between 6 - 8pm, depending on temperature and day length. This walk is usually 15-20 minutes.
+* Throwing the Chuck-It toy with Kali in the backyard (or a fenced in dog run) is a great way to work out some of her excess energy.
+* We do not recommend letting Kali be off leash in an unfenced area. Her recall is spotty.
+* If Kali is being unruly on a walk, just stop and have her sit until she calms down. Walking and smelling is the ultimate reward for her, so this is an effective way to deal with things like jumping squirrels.
+* When other dogs approach Kali to sniff her, she is usually fine. However, if the other dog is overly excited or a male dog who is larger than her, she may raise her hackles. In this case, Kali can be walked away from that situation. She is generally very calm and does not instigate with other dogs. She does like to try and sniff dogs who are smaller than her.
+* We use the foot towel to wipe dirt off her feet. If her paws are really dirty, we use the paw wash.
+* To use the paw wash, fill it to the halfway or 3/4 mark with water. One by one, stick each of her feet into the paw washer and gently raise and lower the leg so that the squeegees on the side can remove dirt and mud. Then we squeeze the water out of her fur and dry her off with the foot towel.
+* When she has pooped, we wet a paper towel and wipe her bottom and tail (especially where the tail may touch her bottom).
+
+### Emergency care
+
+* Clinic in Saratoga: [Saratoga Veterinary Hospital](https://www.saratogavethospital.com/contact)
+  + Contact phone: 408-548-0953
+  + Hours: Mon - Sat: 8:00 AM - 8:00 PM; Sun: CLOSED
+  + Address: 12297 Saratoga Sunnyvale Road, Suite 100, Saratoga, CA 95070
+* First choice emergency hospital: [South Bay Animal Hospital & Pet Resort](http://www.sb-animalhospital.com/)
+  + Contact phone: 408-899-4791
+  + Should be open 24/7, 365 days a year
+  + Address: 5188 Moorpark Ave., San Jose, CA 95129
+* Back up emergency hospital: [United Veterinary Specialty and Emergency](http://unitedvet.com/)
+  + Contact phone: 408-371-6252
+  + Address: 905 Dell Ave, Campbell, CA 95008
+  + Secondary Location (open overnight on weekdays and all day on weekends): 601 Showers Drive, Mountain View, CA 94040

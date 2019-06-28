@@ -1,0 +1,18 @@
+name: "Casa Deshchang"
+output_dir: "."
+navbar:
+  title: "Deshchang Family Tips and Tricks"
+  left:
+    - text: "Index"
+      icon: fa-home
+      href: index.html
+    - text: "Recipes"
+      icon: fa-pepper-hot
+      href: Recipes.html
+    - text: "Caring for Kali"
+      icon: fa-paw
+      href: Kali.html
+output:
+  html_document:
+    theme: flatly
+    css: style.css

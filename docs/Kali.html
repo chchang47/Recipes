@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+<meta name="author" content="The Deshchangs" />
+
+<meta name="date" content="2019-06-27" />
+
+<title>Caring for Kalimirchi</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h2 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h3 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h4 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h5 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.section h6 {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Deshchang Family Tips and Tricks</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Index
+  </a>
+</li>
+<li>
+  <a href="Recipes.html">
+    <span class="fa fa-pepper-hot"></span>
+     
+    Recipes
+  </a>
+</li>
+<li>
+  <a href="Kali.html">
+    <span class="fa fa-paw"></span>
+     
+    Caring for Kali
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Caring for Kalimirchi</h1>
+<h4 class="author"><em>The Deshchangs</em></h4>
+<h4 class="date"><em>2019-06-27</em></h4>
+
+</div>
+
+
+<div id="care-guide-for-kali" class="section level2">
+<h2>Care guide for Kali</h2>
+<div id="feeding-and-general-care" class="section level3">
+<h3>Feeding and general care</h3>
+<ul>
+<li>We wash Kali’s water bowl every morning and her food bowl after each meal. She gets filtered tap water.</li>
+<li>Kali currently eats <a href="https://www.chewy.com/taste-wild-pacific-stream-grain-free/dp/181318">Taste of the Wild</a> kibble
+<ul>
+<li>We estimate her caloric needs to be around 830 - 900 KCal/day</li>
+<li>Her current kibble has a caloric density of 3.6 Kcal/gram</li>
+</ul></li>
+<li>On inactive days (e.g. no hiking, no trail running), she should eat <strong>100</strong> grams of kibble in the morning and <strong>130</strong> grams of kibble in the evening (or thereabouts)</li>
+<li>On active days, she should eat <strong>110 - 120</strong> grams of kibble in the morning and <strong>120-140</strong> grams of kibble in the evening.</li>
+<li>Typically she eats at 8am in the morning and 6pm in the evening. This is fairly flexible, but she is unlikely to be hungry before 8am.</li>
+<li>She can be fussy with her food. In that case, we use the vati and a pestle to crush some kibble (around 5-10 pieces) and sprinkle it on top of the remaining food. Otherwise, you can add some hot water from the tap and sprinkle it on top of some of the food. We sprinkle hot water on a subset of the food because if all of the food gets wet and she ignores it, the food has to get thrown away.</li>
+<li>If these tricks do not work, you can try adding a little bit of vegetable oil (we just use olive oil) to her food, or squeezing some watermelon on top of it, or sprinkling some milk.</li>
+<li>We brush Kali’s teeth at night. We wet her toothbrush, squeeze some toothpaste on it, and brush it over her teeth. If that is infeasible, you can put some toothpaste on her kong and let her play with that toy. And you can let her lick and chew at her toothbrush with toothpaste on it.</li>
+<li>We comb Kali once every 2-3 days using the Furminator fur rake.</li>
+</ul>
+<div id="snacks" class="section level4">
+<h4>Snacks</h4>
+<ul>
+<li>Kali has the bag of Zuke’s treats in the bag on top of the washing machine.</li>
+<li>She also enjoys her Easy Cheese, which is in the aerosol can in the second dog bag in Nikhil’s room.</li>
+<li>Kali enjoys eating:
+<ul>
+<li>watermelon (small pieces)</li>
+<li>carrot (sometimes, tiny pieces)</li>
+<li>apple (sometimes, tiny pieces; she likes sweet apples like Fuji rather than tangy ones like Pink Lady)</li>
+<li>white nectarine (small pieces)</li>
+<li>banana (small pieces and small quantity)</li>
+<li>blueberries (sometimes we have to smush one open to entice her)</li>
+<li>mango (and mango lassi)</li>
+</ul></li>
+<li>We give her treats when she behaves well on walks (we just put some Zuke’s treats in a Ziploc bag, though we haven’t done this since we moved from Tennessee). She gets 1 treat for each instance of good behavior (e.g. ignoring a squirrel that she was inclined to chase).</li>
+<li>She can also have a small fruit or food treat in the afternoon. We typically do not table feed her.</li>
+</ul>
+<p>Toxic foods for dogs <a href="https://www.akc.org/expert-advice/nutrition/fruits-vegetables-dogs-can-and-cant-eat/">include</a>:</p>
+<ul>
+<li>cherries</li>
+<li>grapes</li>
+<li>chocolate</li>
+<li>onions</li>
+<li>avocado</li>
+</ul>
+</div>
+</div>
+<div id="commands" class="section level3">
+<h3>Commands</h3>
+<p>Kali knows the following commands. The commands in <strong>bold</strong> have high adherence; <em>italics</em>, slightly less adherence; and normal font denotes questionable adherence.</p>
+<ul>
+<li><strong>Sit</strong></li>
+<li><strong>Down</strong></li>
+<li><strong>Wait</strong> (useful when you want her to sit/down while you open a door)</li>
+<li><strong>Stay</strong></li>
+<li><em>Come here</em></li>
+<li><strong>Release</strong> (to end a successful stay or wait)</li>
+<li><strong>Heel</strong> (walk alongside me; reinforced by putting your hand in front of her face and/or shortening the leash)</li>
+<li><em>Spin</em></li>
+<li><strong>Gong Xi</strong></li>
+<li><strong>Take it</strong> (mostly used to get her to eat food)</li>
+<li><strong>Leave it</strong> (drop the ball or ignore the exciting squirrel)</li>
+<li><em>Look at me</em> (useful to obtain Kali’s attention when she is distracted by something enticing like a squirrel)</li>
+<li><em>Point</em> (if you stick out two outstretched fingers in a point, Kali should walk to the point)</li>
+<li><em>Paw</em> (to untangle herself from her own leash)</li>
+<li>Shake (shake hands)</li>
+<li>Play Bow</li>
+<li>Roll over</li>
+<li>Weave (walk through legs like weaving poles)</li>
+<li>Cross paws</li>
+<li>Place (go to a mat or a specific location)</li>
+<li>Speak (bark on command)</li>
+</ul>
+</div>
+<div id="walking-exercise" class="section level3">
+<h3>Walking &amp; Exercise</h3>
+<ul>
+<li>Kali goes outside twice a day (on two walks, or a walk + hike or run).</li>
+<li>We ask Kali to sit before we put on her collar and leash to reinforce good, calm behavior.</li>
+<li>In addition to her walks, we let Kali in the backyard first thing in the morning and in the evening after dinner. If we are home, we also let her play in the backyard in the afternoon.
+<ul>
+<li>Kali may poop in the backyard in the morning before eating and before her walk.</li>
+</ul></li>
+<li>Kali is an escape artist so she cannot be left in the backyard alone for a long time.</li>
+<li>We take her out in the morning between 7:30am - 10am and typically walk her for 10-20 minutes.
+<ul>
+<li>Usually Kali will poop on a longer walk.</li>
+</ul></li>
+<li>Her evening walk happens between 6 - 8pm, depending on temperature and day length. This walk is usually 15-20 minutes.</li>
+<li>Throwing the Chuck-It toy with Kali in the backyard (or a fenced in dog run) is a great way to work out some of her excess energy.</li>
+<li>We do not recommend letting Kali be off leash in an unfenced area. Her recall is spotty.</li>
+<li>If Kali is being unruly on a walk, just stop and have her sit until she calms down. Walking and smelling is the ultimate reward for her, so this is an effective way to deal with things like jumping squirrels.</li>
+<li>When other dogs approach Kali to sniff her, she is usually fine. However, if the other dog is overly excited or a male dog who is larger than her, she may raise her hackles. In this case, Kali can be walked away from that situation. She is generally very calm and does not instigate with other dogs. She does like to try and sniff dogs who are smaller than her.</li>
+<li>We use the foot towel to wipe dirt off her feet. If her paws are really dirty, we use the paw wash.</li>
+<li>To use the paw wash, fill it to the halfway or 3/4 mark with water. One by one, stick each of her feet into the paw washer and gently raise and lower the leg so that the squeegees on the side can remove dirt and mud. Then we squeeze the water out of her fur and dry her off with the foot towel.</li>
+<li>When she has pooped, we wet a paper towel and wipe her bottom and tail (especially where the tail may touch her bottom).</li>
+</ul>
+</div>
+<div id="emergency-care" class="section level3">
+<h3>Emergency care</h3>
+<ul>
+<li>Clinic in Saratoga: <a href="https://www.saratogavethospital.com/contact">Saratoga Veterinary Hospital</a>
+<ul>
+<li>Contact phone: 408-548-0953</li>
+<li>Hours: Mon - Sat: 8:00 AM - 8:00 PM; Sun: CLOSED</li>
+<li>Address: 12297 Saratoga Sunnyvale Road, Suite 100, Saratoga, CA 95070</li>
+</ul></li>
+<li>First choice emergency hospital: <a href="http://www.sb-animalhospital.com/">South Bay Animal Hospital &amp; Pet Resort</a>
+<ul>
+<li>Contact phone: 408-899-4791</li>
+<li>Should be open 24/7, 365 days a year</li>
+<li>Address: 5188 Moorpark Ave., San Jose, CA 95129</li>
+</ul></li>
+<li>Back up emergency hospital: <a href="http://unitedvet.com/">United Veterinary Specialty and Emergency</a>
+<ul>
+<li>Contact phone: 408-371-6252</li>
+<li>Address: 905 Dell Ave, Campbell, CA 95008</li>
+<li>Secondary Location (open overnight on weekdays and all day on weekends): 601 Showers Drive, Mountain View, CA 94040</li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
