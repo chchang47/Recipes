@@ -11,32 +11,32 @@ output: html_document
 
 * We wash Kali's water bowl every morning and her food bowl after each meal. She gets filtered tap water.
 * Kali currently eats [Taste of the Wild](https://www.chewy.com/taste-wild-pacific-stream-grain-free/dp/181318) kibble
-  + We estimate her caloric needs to be around 800 KCal/day
-  + Her current kibble has a caloric density of 3.6 Kcal/gram
-* On inactive days (e.g. no hiking, no trail running), she should eat **90** grams of kibble in the morning and **120** grams of kibble in the evening (or thereabouts; total **210** grams).
-  + We feed her in the morning and again in the evening because she cannot ingest enough food in one sitting to meet her caloric requirements.
-  + Typically we leave her food out for less than an hour--we are trying to encourage her to not graze on her food through the day.
-* On active days, she should eat **100** grams of kibble in the morning and **130** grams of kibble in the evening (total: **230** grams).
-* Typically she eats at 8am in the morning and 6pm in the evening. This is fairly flexible, but she is unlikely to be hungry before 8am.
-* She can be fussy with her food. In that case, we use the vati and a pestle to crush some kibble (around 5-10 pieces) and sprinkle it on top of the remaining food. Otherwise, you can add some hot water from the tap and sprinkle it on top of some of the food. We sprinkle hot water on a subset of the food because if all of the food gets wet and she ignores it, the food has to get thrown away.
-  + Dogs cannot easily digest food that is as salty or fatty as food that humans can easily process. So when we add chicken or vegetable stock to her food to help her have a better appetite, we make sure to use no-sodium or very low-sodium stock (usually homemade).
+    + We estimate her caloric needs to be around 800 KCal/day
+    + Her current kibble has a caloric density of 3.6 Kcal/gram
+* On inactive days (e.g. no hiking, no trail running), she should eat **100** grams of kibble in the morning and **100** grams of kibble in the evening (or thereabouts; total **200-210** grams).
+    + We feed her in the morning and again in the evening because she cannot ingest enough food in one sitting to meet her caloric requirements.
+    + Typically we leave her food out for less than an hour--we are trying to encourage her to not graze on her food through the day.
+* On active days, she should eat **100** grams of kibble in the morning and **120** grams of kibble in the evening (total: **220** grams).
+* She eats at around 8am in the morning and 6pm in the evening. This is fairly flexible, but she is unlikely to be hungry before 8am.
+    + Currently she accepts kibble with some chicken sprinkle in the morning.
+    + In the evening, her appetite is usually better and she often eats the kibble plain.
 * If these tricks do not work, you can try adding a little bit of vegetable oil (we just use olive oil) to her food, or squeezing some watermelon on top of it, or sprinkling some milk.
 * We brush Kali's teeth at night. We wet her toothbrush, squeeze some toothpaste on it, and brush it over her teeth. If that is infeasible, you can put some toothpaste on her kong and let her play with that toy. And you can let her lick and chew at her toothbrush with toothpaste on it.
 * We comb Kali once every 2-3 days using the Furminator fur rake.
 
 #### Snacks
 
-* Kali has the bag of Zuke's treats in the bag on top of the washing machine.
-* She also enjoys her Easy Cheese, which is in the aerosol can in the second dog bag in Nikhil's room.
+* Kali enjoys small treats like the Zuke's training bites
 * Kali enjoys eating:
   + watermelon (small pieces)
   + carrot (sometimes, tiny pieces)
-  + apple (sometimes, tiny pieces; she likes sweet apples like Fuji rather than tangy ones like Pink Lady)
+  + apple (sometimes, tiny pieces; she likes sweet apples like Honeycrisp rather than tangy ones like Pink Lady)
   + white nectarine (small pieces)
   + banana (small pieces and small quantity)
   + blueberries (sometimes we have to smush one open to entice her)
   + mango (and mango lassi)
-* We give her treats when she behaves well on walks (we just put some Zuke's treats in a Ziploc bag, though we haven't done this since we moved from Tennessee). She gets 1 treat for each instance of good behavior (e.g. ignoring a squirrel that she was inclined to chase).
+  + pear (sweeter varieties)
+* We give her treats when she behaves well on walks (we just put some Zuke's treats in a Ziploc bag then give her individual treats on the walk). She gets 1 treat for each instance of good behavior (e.g. ignoring a squirrel that she was inclined to chase).
 * She can also have a small fruit or food treat in the afternoon. We typically do not table feed her.
 
 Toxic foods for dogs [include](https://www.akc.org/expert-advice/nutrition/fruits-vegetables-dogs-can-and-cant-eat/):
@@ -46,34 +46,83 @@ Toxic foods for dogs [include](https://www.akc.org/expert-advice/nutrition/fruit
 * chocolate
 * onions
 * avocado
+* stone fruit pits
+* citrus (not toxic but unpleasant for them)
 
 ### Commands
 
 Kali knows the following commands. The commands in **bold** have high adherence; *italics*, slightly less adherence; and normal font denotes questionable adherence.
 
+#### Functional commands
+
+* **Curb**
+    + A command to remind Kali to sit at the curb before crossing any intersection.
 * **Sit**
+    + Given with a flat hand facing up
 * **Down**
+    + Point your hand toward the ground
 * **Wait** (useful when you want her to sit/down while you open a door)
+    + Point your hand or two fingers toward the ground
 * **Stay**
+    + Make a flat palm (like a stop sign) with your hand in front of her face
+* **Leave it**
+    + Used to get her to drop the ball or ignore the exciting squirrel (more difficult)
+    + No hand signal
 * *Come here*
+    + Wave your hand toward your body
 * **Release** (to end a successful stay or wait)
 * *Stand* (stand up from a down, useful for paw washing)
-* **Heel** (walk alongside me; reinforced by putting your hand in front of her face and/or shortening the leash)
-* *Spin*
-* **Gong Xi**
+    + Pull hand up, as though you are opening a drawer
+* **Heel**
+    + Walk alongside you
+    + Reinforced by putting your hand in front of her face and/or shortening the leash
+    + Signalled by putting your hand flat in front of her during a walk
 * **Take it** (mostly used to get her to eat food)
-* **Leave it** (drop the ball or ignore the exciting squirrel)
-* *Look at me* (useful to obtain Kali's attention when she is distracted by something enticing like a squirrel)
-* *Point* (if you stick out two outstretched fingers in a point, Kali should walk to the point)
-* *Paw* (to untangle herself from her own leash)
-* Shake (shake hands)
+    + No hand signal
+* *Look at me* 
+    + useful to obtain Kali's attention when she is distracted by something enticing like a squirrel
+    + No hand signal
+    + Sometimes we just get up in her face if she is really distracted and make her sit instead of continuing the walk (Walking and chasing the prey is a reward)
+* *Point*
+    + If you stick out two outstretched fingers in a downward point, Kali should walk to the point
+* *Paw* 
+    + Gets Kali to untangle herself from her own leash
+    + No hand signal
+* Don't lick
+    + Don't kiss/lick my face
+* **Get on**
+    + Jump on a sofa or bed
+* **Get off**
+    + Jump off a sofa or bed
+    + No hand gesture; but if she ignores you, you can make a shoving motion with your hands
+
+#### Party tricks
+
+* *Spin*
+    + Point fingers together and spin in a circle in front of her snout
+* **Gong Xi**
+    + Lift hand above her head
+* *Shake* 
+    + Shake hands
+    + First get Kali in a sit position
+    + She should know to do this if you extend your hand toward her chest
 * Play Bow
+    + Point two fingers straight down
+* *Crawl*
+    + From an incomplete down (body is down but hips are not turned/rolled, like sphinx posture), you gesture forward with your fingers using a treat as a lure
 * Roll over
-* Weave (walk through legs like weaving poles)
+    + She has to be a down position first, then she can be lured to roll over
+    + We lure her by having a treat and slowly circling the treat around her head/shoulders
+* Weave 
+    + walk through legs like weaving poles
 * Cross paws
-* Place (go to a mat or a specific location)
-* Speak (bark on command)
-* Footsie (come between legs and stand on feet)
+    + Kali has probably forgotten this trick
+* Place
+    + go to a mat or a specific location
+* Speak
+    + bark on command; Kali doesn't really know this one yet
+* Footsie
+    + come between legs and stand on feet
 
 ### Walking & Exercise
 
@@ -96,14 +145,51 @@ Kali knows the following commands. The commands in **bold** have high adherence;
 ### Emergency care
 
 * Clinic in Saratoga: [Saratoga Veterinary Hospital](https://www.saratogavethospital.com/contact)
-  + Contact phone: 408-548-0953
-  + Hours: Mon - Sat: 8:00 AM - 8:00 PM; Sun: CLOSED
-  + Address: 12297 Saratoga Sunnyvale Road, Suite 100, Saratoga, CA 95070
+    + Contact phone: 408-548-0953
+    + Hours: Mon - Sat: 8:00 AM - 8:00 PM; Sun: CLOSED
+    + Address: 12297 Saratoga Sunnyvale Road, Suite 100, Saratoga, CA 95070
 * First choice emergency hospital: [South Bay Animal Hospital & Pet Resort](http://www.sb-animalhospital.com/)
-  + Contact phone: 408-899-4791
-  + Should be open 24/7, 365 days a year
-  + Address: 5188 Moorpark Ave., San Jose, CA 95129
+    + Contact phone: 408-899-4791
+    + Should be open 24/7, 365 days a year
+    + Address: 5188 Moorpark Ave., San Jose, CA 95129
 * Back up emergency hospital: [United Veterinary Specialty and Emergency](http://unitedvet.com/)
-  + Contact phone: 408-371-6252
-  + Address: 905 Dell Ave, Campbell, CA 95008
-  + Secondary Location (open overnight on weekdays and all day on weekends): 601 Showers Drive, Mountain View, CA 94040
+    + Contact phone: 408-371-6252
+    + Address: 905 Dell Ave, Campbell, CA 95008
+    + Secondary Location (open overnight on weekdays and all day on weekends): 601 Showers Drive, Mountain View, CA 94040
+* For current and past veterinary information:
+    + Veterinarian in Claremont: Dr. Charanpreet Boparai at [Alleve Animal Hospital](http://allevevet.com/staff.php) (check-up in October 2019)
+    + Veterinarian in Tennessee: Dr. Cathy Carr at [Powell Animal Hospital](https://www.powellanimalhospital.com/)
+    + Dr. Boparai's office should have all of the relevant documents from Kali's treatments in Tennessee. Her only treatment in California was new patient intake and a re-up on standard vaccinations.
+  
+## Char and Nikhil's contact information in the Philippines
+
+### Itinerary
+
+| Date     | Destination      | Travel specifics | Email/Address      | Phone      |
+|----------|:-------------:|:------------:|:----------:|:----------:|
+| 3/4      | LAX Airport to Taipei then Cebu Mactan Int'l Airport   | EVA Airways BR 11/281 | deshchang@gmail.com | Booked on Orbitz by c.h.w.chang@gmail |
+| 3/6-3/9| Mactan City, Cebu | [AirBnB Unit](https://www.airbnb.com/rooms/15309529) | [Address](https://goo.gl/maps/5Kjm8byHPzMBzDKE7) | Host: Roland Konrad (tel:+639054772059) |
+| 3/9      | Mactan Int'l Airport to Coron, Palawan (Busuanga airport) | Cebu Pacific DG 6064 (Time: 7:25 - 9:00) | Booked by deshchang@gmail directly with airline | |
+| 3/9-3/11 | Coron, Palawan | [One Averee Bay Hotel](https://goo.gl/maps/kbgDxXrZoGimcAg4A) | Booked by deshchang@gmail.com on Booking.com | +63 919 391 1836 |
+|3/11      | Coron (Busuanga) to El Nido, Palawan | [Palawan Days Ferry](https://www.palawandays.com/product/fast-craft-el-nido-coron-busuanga-palawan?) (Time: 12:00pm) | Booked by deshchang@gmail.com directly on their website | +63 977 190 65 00; +6348 434 98 86 |
+| 3/11-3/14 | El Nido, Palawan | [Residencia Katrina Bed and Breakfast](https://goo.gl/maps/pQbHR8iH4dor9HQD6)  | Booked by deshchang@gmail on Booking.com | +63 9178089987 |
+| 3/14 | El Nido airport to Cebu Mactan Int'l Airport | AirSwift T60336 (Time: 13:00) | Booked by c.h.w.chang@gmail directly on airline's website | +63 917 816 8763 |
+| 3/14-3/15 | Cebu City, Cebu | [Hotel Elizabeth Cebu](https://goo.gl/maps/1cW1xVHn1ApFADWB7) | Booked on Agoda by c.h.w.chang@gmail | +63 322318000 |
+| 3/15 | Mactan Int'l Airport to Taipei Airport | EVA Airways BR 282 (Time: 11:10am - 14:00) | Booked on Orbitz by c.h.w.chang@gmail | |
+| 3/15-3/16|  Layover in Taipei | [iTaipei Service Apartment](https://goo.gl/maps/pSte7nmHpLZLfP9Y9) | Booked by deshchang@gmail on agoda.com | +886225527070 |
+| 3/16 | Taipei to LAX | EVA Airways BR 12 (Time: 19:20) | Booked on Orbitz by c.h.w.chang@gmail | |
+
+
+### Insurance information
+
+* Medical evacuation insurance through [The Standard](https://eservices.europassistance-usa.com/sites/TheStandard/Pages/MembersHome.aspx), also known as Europ Assistance/Generali Global Assistance
+    + Phone: +1-240-330-1380 (International hotline)/+1-866-455-9188 (US hotline)
+    + Email: ops@gga-usa.com
+    + Pomona College (through the Claremont Colleges) group ID: D2STD / Activation code: 181002
+    + Pomona College contacts: Cristal.Hernandez@claremont.edu; Angelica.Zaragoza@claremont.edu
+* Anthem BlueCross Blue Shield Global Core coverage
+    + Group number: 1873JA
+    + Coverage through The Claremont Colleges (via Pomona College) for both of us
+
+
+
