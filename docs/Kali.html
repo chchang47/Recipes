@@ -1,38 +1,52 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="The Deshchangs" />
+<meta name="author" content="Nikhil and Char" />
 
-<meta name="date" content="2020-03-02" />
+<meta name="date" content="2022-05-06" />
 
-<title>Caring for Kalimirchi</title>
+<title>Caring for Kali</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
-<style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -45,38 +59,12 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
+
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -84,13 +72,8 @@ h6 {
   margin-left: auto;
   margin-right: auto;
 }
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
-}
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -104,40 +87,16 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 60px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h2 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h3 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h4 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h5 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
-.section h6 {
-  padding-top: 65px;
-  margin-top: -65px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -165,7 +124,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -177,7 +136,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -188,14 +147,25 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
-
-<div class="container-fluid main-container">
 
 <!-- tabsets -->
 
@@ -205,7 +175,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -241,6 +210,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -253,20 +223,17 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -274,7 +241,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -312,82 +279,110 @@ $(document).ready(function () {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
-<h1 class="title toc-ignore">Caring for Kalimirchi</h1>
-<h4 class="author"><em>The Deshchangs</em></h4>
-<h4 class="date"><em>2020-03-02</em></h4>
+<h1 class="title toc-ignore">Caring for Kali</h1>
+<h4 class="author">Nikhil and Char</h4>
+<h4 class="date">2022-05-06</h4>
 
 </div>
 
 
-<div id="care-guide-for-kali" class="section level2">
-<h2>Care guide for Kali</h2>
-<div id="feeding-and-general-care" class="section level3">
-<h3>Feeding and general care</h3>
+<div id="overview-about-kali" class="section level1">
+<h1>Overview about Kali</h1>
 <ul>
-<li>We wash Kali’s water bowl every morning and her food bowl after each meal. She gets filtered tap water.</li>
-<li>Kali currently eats <a href="https://www.chewy.com/taste-wild-pacific-stream-grain-free/dp/181318">Taste of the Wild</a> kibble
-<ul>
-<li>We estimate her caloric needs to be around 800 KCal/day</li>
-<li>Her current kibble has a caloric density of 3.6 Kcal/gram</li>
-</ul></li>
-<li>On inactive days (e.g. no hiking, no trail running), she should eat <strong>100</strong> grams of kibble in the morning and <strong>100</strong> grams of kibble in the evening (or thereabouts; total <strong>200-210</strong> grams).
-<ul>
-<li>We feed her in the morning and again in the evening because she cannot ingest enough food in one sitting to meet her caloric requirements.</li>
-<li>Typically we leave her food out for less than an hour–we are trying to encourage her to not graze on her food through the day.</li>
-</ul></li>
-<li>On active days, she should eat <strong>100</strong> grams of kibble in the morning and <strong>120</strong> grams of kibble in the evening (total: <strong>220</strong> grams).</li>
-<li>She eats at around 8am in the morning and 6pm in the evening. This is fairly flexible, but she is unlikely to be hungry before 8am.
-<ul>
-<li>Currently she accepts kibble with some chicken sprinkle in the morning.</li>
-<li>In the evening, her appetite is usually better and she often eats the kibble plain.</li>
-</ul></li>
-<li>If these tricks do not work, you can try adding a little bit of vegetable oil (we just use olive oil) to her food, or squeezing some watermelon on top of it, or sprinkling some milk.</li>
-<li>We brush Kali’s teeth at night. We wet her toothbrush, squeeze some toothpaste on it, and brush it over her teeth. If that is infeasible, you can put some toothpaste on her kong and let her play with that toy. And you can let her lick and chew at her toothbrush with toothpaste on it.</li>
-<li>We comb Kali once every 2-3 days using the Furminator fur rake.</li>
+<li>Kali is currently eating 1 (rice) cup of kibble with 1/4 cup of
+home-made wet food.</li>
+<li>She usually poops once in the morning and once at night. Sometimes
+she poops more when she is excited by other dogs’ smells.</li>
+<li>Kali does not have very good recall. She will get excited and
+distracted by other dogs and animals such as lizards, squirrels,
+etc.</li>
 </ul>
-<div id="snacks" class="section level4">
-<h4>Snacks</h4>
+<!--
+## Care guide for Kali
+
+### Feeding and general care
+
+* We wash Kali's water bowl every morning and her food bowl after each meal. She gets filtered tap water.
+* Kali currently eats [Taste of the Wild](https://www.chewy.com/taste-wild-pacific-stream-grain-free/dp/181318) kibble
+    + We estimate her caloric needs to be around 800 KCal/day
+    + Her current kibble has a caloric density of 3.6 Kcal/gram
+* On inactive days (e.g. no hiking, no trail running), she should eat **100** grams of kibble in the morning and **100** grams of kibble in the evening (or thereabouts; total **200-210** grams).
+    + We feed her in the morning and again in the evening because she cannot ingest enough food in one sitting to meet her caloric requirements.
+    + Typically we leave her food out for less than an hour--we are trying to encourage her to not graze on her food through the day.
+* On active days, she should eat **100** grams of kibble in the morning and **120** grams of kibble in the evening (total: **220** grams).
+* She eats at around 8am in the morning and 6pm in the evening. This is fairly flexible, but she is unlikely to be hungry before 8am.
+    + Currently she accepts kibble with some chicken sprinkle in the morning.
+    + In the evening, her appetite is usually better and she often eats the kibble plain.
+* If these tricks do not work, you can try adding a little bit of vegetable oil (we just use olive oil) to her food, or squeezing some watermelon on top of it, or sprinkling some milk.
+* We brush Kali's teeth at night. We wet her toothbrush, squeeze some toothpaste on it, and brush it over her teeth. If that is infeasible, you can put some toothpaste on her kong and let her play with that toy. And you can let her lick and chew at her toothbrush with toothpaste on it.
+* We comb Kali once every 2-3 days using the Furminator fur rake.
+
+#### Snacks
+
+* Kali enjoys small treats like the Zuke's training bites
+* Kali enjoys eating:
+  + watermelon (small pieces)
+  + carrot (sometimes, tiny pieces)
+  + apple (sometimes, tiny pieces; she likes sweet apples like Honeycrisp rather than tangy ones like Pink Lady)
+  + white nectarine (small pieces)
+  + banana (small pieces and small quantity)
+  + blueberries (sometimes we have to smush one open to entice her)
+  + mango (and mango lassi)
+  + pear (sweeter varieties)
+* We give her treats when she behaves well on walks (we just put some Zuke's treats in a Ziploc bag then give her individual treats on the walk). She gets 1 treat for each instance of good behavior (e.g. ignoring a squirrel that she was inclined to chase).
+* She can also have a small fruit or food treat in the afternoon. We typically do not table feed her.
+
+Toxic foods for dogs [include](https://www.akc.org/expert-advice/nutrition/fruits-vegetables-dogs-can-and-cant-eat/):
+
+* cherries
+* grapes
+* chocolate
+* onions
+* avocado
+* stone fruit pits
+* citrus (not toxic but unpleasant for them)
+-->
+<div id="veterinary-information" class="section level2">
+<h2>Veterinary information</h2>
+<p><em>Current veterinarian</em></p>
+<p><a href="https://pethealthcenter.westernu.edu/">Western University
+Pet Health Center</a>, phone: (909) 865-2433 - last check-up on January
+6, 2022. Kali is up-to-date on all of her vaccines.</p>
+<p><em>Past veterinarians</em></p>
 <ul>
-<li>Kali enjoys small treats like the Zuke’s training bites</li>
-<li>Kali enjoys eating:
-<ul>
-<li>watermelon (small pieces)</li>
-<li>carrot (sometimes, tiny pieces)</li>
-<li>apple (sometimes, tiny pieces; she likes sweet apples like Honeycrisp rather than tangy ones like Pink Lady)</li>
-<li>white nectarine (small pieces)</li>
-<li>banana (small pieces and small quantity)</li>
-<li>blueberries (sometimes we have to smush one open to entice her)</li>
-<li>mango (and mango lassi)</li>
-<li>pear (sweeter varieties)</li>
-</ul></li>
-<li>We give her treats when she behaves well on walks (we just put some Zuke’s treats in a Ziploc bag then give her individual treats on the walk). She gets 1 treat for each instance of good behavior (e.g. ignoring a squirrel that she was inclined to chase).</li>
-<li>She can also have a small fruit or food treat in the afternoon. We typically do not table feed her.</li>
-</ul>
-<p>Toxic foods for dogs <a href="https://www.akc.org/expert-advice/nutrition/fruits-vegetables-dogs-can-and-cant-eat/">include</a>:</p>
-<ul>
-<li>cherries</li>
-<li>grapes</li>
-<li>chocolate</li>
-<li>onions</li>
-<li>avocado</li>
-<li>stone fruit pits</li>
-<li>citrus (not toxic but unpleasant for them)</li>
+<li>Initial veterinarian in Claremont: Dr. Charanpreet Boparai at <a
+href="http://allevevet.com/staff.php">Alleve Animal Hospital</a>
+(check-up in October 2019 with care through fall 2020 when she shifted
+to Western Pet Health Center)</li>
+<li>Veterinarian in Tennessee: Dr. Cathy Carr at <a
+href="https://www.powellanimalhospital.com/">Powell Animal
+Hospital</a></li>
+<li>Dr. Boparai’s office should have all of the relevant documents from
+Kali’s treatments in Tennessee.</li>
 </ul>
 </div>
-</div>
+<div id="microchip-information" class="section level2">
+<h2>Microchip information</h2>
+<p>Kali is microchipped with the brand “Save this Life”. Her microchip
+ID is <code>991001001483928</code>. You can see her <a
+href="https://www.savethislife.com/991001001483928">online profile
+here</a>.</p>
 <div id="commands" class="section level3">
 <h3>Commands</h3>
-<p>Kali knows the following commands. The commands in <strong>bold</strong> have high adherence; <em>italics</em>, slightly less adherence; and normal font denotes questionable adherence.</p>
+<p>Kali knows the following commands. The commands in
+<strong>bold</strong> have high adherence; <em>italics</em>, slightly
+less adherence; and normal font denotes questionable adherence.</p>
 <div id="functional-commands" class="section level4">
 <h4>Functional commands</h4>
 <ul>
 <li><strong>Curb</strong>
 <ul>
-<li>A command to remind Kali to sit at the curb before crossing any intersection.</li>
+<li>A command to remind Kali to sit at the curb before crossing any
+intersection.</li>
 </ul></li>
 <li><strong>Sit</strong>
 <ul>
@@ -397,17 +392,20 @@ $(document).ready(function () {
 <ul>
 <li>Point your hand toward the ground</li>
 </ul></li>
-<li><strong>Wait</strong> (useful when you want her to sit/down while you open a door)
+<li><strong>Wait</strong> (useful when you want her to sit/down while
+you open a door)
 <ul>
 <li>Point your hand or two fingers toward the ground</li>
 </ul></li>
 <li><strong>Stay</strong>
 <ul>
-<li>Make a flat palm (like a stop sign) with your hand in front of her face</li>
+<li>Make a flat palm (like a stop sign) with your hand in front of her
+face</li>
 </ul></li>
 <li><strong>Leave it</strong>
 <ul>
-<li>Used to get her to drop the ball or ignore the exciting squirrel (more difficult)</li>
+<li>Used to get her to drop the ball or ignore the exciting squirrel
+(more difficult)</li>
 <li>No hand signal</li>
 </ul></li>
 <li><em>Come here</em>
@@ -422,8 +420,10 @@ $(document).ready(function () {
 <li><strong>Heel</strong>
 <ul>
 <li>Walk alongside you</li>
-<li>Reinforced by putting your hand in front of her face and/or shortening the leash</li>
-<li>Signalled by putting your hand flat in front of her during a walk</li>
+<li>Reinforced by putting your hand in front of her face and/or
+shortening the leash</li>
+<li>Signalled by putting your hand flat in front of her during a
+walk</li>
 </ul></li>
 <li><strong>Take it</strong> (mostly used to get her to eat food)
 <ul>
@@ -431,13 +431,17 @@ $(document).ready(function () {
 </ul></li>
 <li><em>Look at me</em>
 <ul>
-<li>useful to obtain Kali’s attention when she is distracted by something enticing like a squirrel</li>
+<li>useful to obtain Kali’s attention when she is distracted by
+something enticing like a squirrel</li>
 <li>No hand signal</li>
-<li>Sometimes we just get up in her face if she is really distracted and make her sit instead of continuing the walk (Walking and chasing the prey is a reward)</li>
+<li>Sometimes we just get up in her face if she is really distracted and
+make her sit instead of continuing the walk (Walking and chasing the
+prey is a reward)</li>
 </ul></li>
 <li><em>Point</em>
 <ul>
-<li>If you stick out two outstretched fingers in a downward point, Kali should walk to the point</li>
+<li>If you stick out two outstretched fingers in a downward point, Kali
+should walk to the point</li>
 </ul></li>
 <li><em>Paw</em>
 <ul>
@@ -455,7 +459,8 @@ $(document).ready(function () {
 <li><strong>Get off</strong>
 <ul>
 <li>Jump off a sofa or bed</li>
-<li>No hand gesture; but if she ignores you, you can make a shoving motion with your hands</li>
+<li>No hand gesture; but if she ignores you, you can make a shoving
+motion with your hands</li>
 </ul></li>
 </ul>
 </div>
@@ -464,7 +469,8 @@ $(document).ready(function () {
 <ul>
 <li><em>Spin</em>
 <ul>
-<li>Point fingers together and spin in a circle in front of her snout</li>
+<li>Point fingers together and spin in a circle in front of her
+snout</li>
 </ul></li>
 <li><strong>Gong Xi</strong>
 <ul>
@@ -474,7 +480,8 @@ $(document).ready(function () {
 <ul>
 <li>Shake hands</li>
 <li>First get Kali in a sit position</li>
-<li>She should know to do this if you extend your hand toward her chest</li>
+<li>She should know to do this if you extend your hand toward her
+chest</li>
 </ul></li>
 <li>Play Bow
 <ul>
@@ -482,12 +489,16 @@ $(document).ready(function () {
 </ul></li>
 <li><em>Crawl</em>
 <ul>
-<li>From an incomplete down (body is down but hips are not turned/rolled, like sphinx posture), you gesture forward with your fingers using a treat as a lure</li>
+<li>From an incomplete down (body is down but hips are not
+turned/rolled, like sphinx posture), you gesture forward with your
+fingers using a treat as a lure</li>
 </ul></li>
 <li>Roll over
 <ul>
-<li>She has to be a down position first, then she can be lured to roll over</li>
-<li>We lure her by having a treat and slowly circling the treat around her head/shoulders</li>
+<li>She has to be a down position first, then she can be lured to roll
+over</li>
+<li>We lure her by having a treat and slowly circling the treat around
+her head/shoulders</li>
 </ul></li>
 <li>Weave
 <ul>
@@ -510,180 +521,42 @@ $(document).ready(function () {
 <li>come between legs and stand on feet</li>
 </ul></li>
 </ul>
+<!--
+### Walking & Exercise
+
+* Kali goes outside twice a day (on two walks, or a walk + hike or run).
+* We ask Kali to sit before we put on her collar and leash to reinforce good, calm behavior.
+* In addition to her walks, we let Kali in the backyard first thing in the morning and in the evening after dinner. If we are home, we also let her play in the backyard in the afternoon.
+  + Kali may poop in the backyard in the morning before eating and before her walk.
+* Kali is an escape artist so she cannot be left in the backyard alone for a long time.
+* We take her out in the morning between 7:30am - 10am and typically walk her for 10-20 minutes.
+    + Usually Kali will poop on a longer walk.
+* Her evening walk happens between 6 - 8pm, depending on temperature and day length. This walk is usually 15-20 minutes.
+* Throwing the Chuck-It toy with Kali in the backyard (or a fenced in dog run) is a great way to work out some of her excess energy.
+* We do not recommend letting Kali be off leash in an unfenced area. Her recall is spotty.
+* If Kali is being unruly on a walk, just stop and have her sit until she calms down. Walking and smelling is the ultimate reward for her, so this is an effective way to deal with things like jumping squirrels.
+* When other dogs approach Kali to sniff her, she is usually fine. However, if the other dog is overly excited or a male dog who is larger than her, she may raise her hackles. In this case, Kali can be walked away from that situation. She is generally very calm and does not instigate with other dogs. She does like to try and sniff dogs who are smaller than her.
+* We use the foot towel to wipe dirt off her feet. If her paws are really dirty, we use the paw wash.
+* To use the paw wash, fill it to the halfway or 3/4 mark with water. One by one, stick each of her feet into the paw washer and gently raise and lower the leg so that the squeegees on the side can remove dirt and mud. Then we squeeze the water out of her fur and dry her off with the foot towel.
+* When she has pooped, we wet a paper towel and wipe her bottom and tail (especially where the tail may touch her bottom).
+
+### Emergency care
+
+* Clinic in Saratoga: [Saratoga Veterinary Hospital](https://www.saratogavethospital.com/contact)
+    + Contact phone: 408-548-0953
+    + Hours: Mon - Sat: 8:00 AM - 8:00 PM; Sun: CLOSED
+    + Address: 12297 Saratoga Sunnyvale Road, Suite 100, Saratoga, CA 95070
+* First choice emergency hospital: [South Bay Animal Hospital & Pet Resort](http://www.sb-animalhospital.com/)
+    + Contact phone: 408-899-4791
+    + Should be open 24/7, 365 days a year
+    + Address: 5188 Moorpark Ave., San Jose, CA 95129
+* Back up emergency hospital: [United Veterinary Specialty and Emergency](http://unitedvet.com/)
+    + Contact phone: 408-371-6252
+    + Address: 905 Dell Ave, Campbell, CA 95008
+    + Secondary Location (open overnight on weekdays and all day on weekends): 601 Showers Drive, Mountain View, CA 94040
+-->
 </div>
 </div>
-<div id="walking-exercise" class="section level3">
-<h3>Walking &amp; Exercise</h3>
-<ul>
-<li>Kali goes outside twice a day (on two walks, or a walk + hike or run).</li>
-<li>We ask Kali to sit before we put on her collar and leash to reinforce good, calm behavior.</li>
-<li>In addition to her walks, we let Kali in the backyard first thing in the morning and in the evening after dinner. If we are home, we also let her play in the backyard in the afternoon.
-<ul>
-<li>Kali may poop in the backyard in the morning before eating and before her walk.</li>
-</ul></li>
-<li>Kali is an escape artist so she cannot be left in the backyard alone for a long time.</li>
-<li>We take her out in the morning between 7:30am - 10am and typically walk her for 10-20 minutes.
-<ul>
-<li>Usually Kali will poop on a longer walk.</li>
-</ul></li>
-<li>Her evening walk happens between 6 - 8pm, depending on temperature and day length. This walk is usually 15-20 minutes.</li>
-<li>Throwing the Chuck-It toy with Kali in the backyard (or a fenced in dog run) is a great way to work out some of her excess energy.</li>
-<li>We do not recommend letting Kali be off leash in an unfenced area. Her recall is spotty.</li>
-<li>If Kali is being unruly on a walk, just stop and have her sit until she calms down. Walking and smelling is the ultimate reward for her, so this is an effective way to deal with things like jumping squirrels.</li>
-<li>When other dogs approach Kali to sniff her, she is usually fine. However, if the other dog is overly excited or a male dog who is larger than her, she may raise her hackles. In this case, Kali can be walked away from that situation. She is generally very calm and does not instigate with other dogs. She does like to try and sniff dogs who are smaller than her.</li>
-<li>We use the foot towel to wipe dirt off her feet. If her paws are really dirty, we use the paw wash.</li>
-<li>To use the paw wash, fill it to the halfway or 3/4 mark with water. One by one, stick each of her feet into the paw washer and gently raise and lower the leg so that the squeegees on the side can remove dirt and mud. Then we squeeze the water out of her fur and dry her off with the foot towel.</li>
-<li>When she has pooped, we wet a paper towel and wipe her bottom and tail (especially where the tail may touch her bottom).</li>
-</ul>
-</div>
-<div id="emergency-care" class="section level3">
-<h3>Emergency care</h3>
-<ul>
-<li>Clinic in Saratoga: <a href="https://www.saratogavethospital.com/contact">Saratoga Veterinary Hospital</a>
-<ul>
-<li>Contact phone: 408-548-0953</li>
-<li>Hours: Mon - Sat: 8:00 AM - 8:00 PM; Sun: CLOSED</li>
-<li>Address: 12297 Saratoga Sunnyvale Road, Suite 100, Saratoga, CA 95070</li>
-</ul></li>
-<li>First choice emergency hospital: <a href="http://www.sb-animalhospital.com/">South Bay Animal Hospital &amp; Pet Resort</a>
-<ul>
-<li>Contact phone: 408-899-4791</li>
-<li>Should be open 24/7, 365 days a year</li>
-<li>Address: 5188 Moorpark Ave., San Jose, CA 95129</li>
-</ul></li>
-<li>Back up emergency hospital: <a href="http://unitedvet.com/">United Veterinary Specialty and Emergency</a>
-<ul>
-<li>Contact phone: 408-371-6252</li>
-<li>Address: 905 Dell Ave, Campbell, CA 95008</li>
-<li>Secondary Location (open overnight on weekdays and all day on weekends): 601 Showers Drive, Mountain View, CA 94040</li>
-</ul></li>
-<li>For current and past veterinary information:
-<ul>
-<li>Veterinarian in Claremont: Dr. Charanpreet Boparai at <a href="http://allevevet.com/staff.php">Alleve Animal Hospital</a> (check-up in October 2019)</li>
-<li>Veterinarian in Tennessee: Dr. Cathy Carr at <a href="https://www.powellanimalhospital.com/">Powell Animal Hospital</a></li>
-<li>Dr. Boparai’s office should have all of the relevant documents from Kali’s treatments in Tennessee. Her only treatment in California was new patient intake and a re-up on standard vaccinations.</li>
-</ul></li>
-</ul>
-</div>
-</div>
-<div id="char-and-nikhils-contact-information-in-the-philippines" class="section level2">
-<h2>Char and Nikhil’s contact information in the Philippines</h2>
-<div id="itinerary" class="section level3">
-<h3>Itinerary</h3>
-<table>
-<colgroup>
-<col width="15%" />
-<col width="23%" />
-<col width="22%" />
-<col width="19%" />
-<col width="19%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th>Date</th>
-<th align="center">Destination</th>
-<th align="center">Travel specifics</th>
-<th align="center">Email/Address</th>
-<th align="center">Phone</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>3/4</td>
-<td align="center">LAX Airport to Taipei then Cebu Mactan Int’l Airport</td>
-<td align="center">EVA Airways BR 11/281</td>
-<td align="center"><a href="mailto:deshchang@gmail.com">deshchang@gmail.com</a></td>
-<td align="center">Booked on Orbitz by <a href="mailto:c.h.w.chang@gmail">c.h.w.chang@gmail</a></td>
-</tr>
-<tr class="even">
-<td>3/6-3/9</td>
-<td align="center">Mactan City, Cebu</td>
-<td align="center"><a href="https://www.airbnb.com/rooms/15309529">AirBnB Unit</a></td>
-<td align="center"><a href="https://goo.gl/maps/5Kjm8byHPzMBzDKE7">Address</a></td>
-<td align="center">Host: Roland Konrad (<a href="tel:+639054772059" class="uri">tel:+639054772059</a>)</td>
-</tr>
-<tr class="odd">
-<td>3/9</td>
-<td align="center">Mactan Int’l Airport to Coron, Palawan (Busuanga airport)</td>
-<td align="center">Cebu Pacific DG 6064 (Time: 7:25 - 9:00)</td>
-<td align="center">Booked by <a href="mailto:deshchang@gmail">deshchang@gmail</a> directly with airline</td>
-<td align="center"></td>
-</tr>
-<tr class="even">
-<td>3/9-3/11</td>
-<td align="center">Coron, Palawan</td>
-<td align="center"><a href="https://goo.gl/maps/kbgDxXrZoGimcAg4A">One Averee Bay Hotel</a></td>
-<td align="center">Booked by <a href="mailto:deshchang@gmail.com">deshchang@gmail.com</a> on Booking.com</td>
-<td align="center">+63 919 391 1836</td>
-</tr>
-<tr class="odd">
-<td>3/11</td>
-<td align="center">Coron (Busuanga) to El Nido, Palawan</td>
-<td align="center"><a href="https://www.palawandays.com/product/fast-craft-el-nido-coron-busuanga-palawan?">Palawan Days Ferry</a> (Time: 12:00pm)</td>
-<td align="center">Booked by <a href="mailto:deshchang@gmail.com">deshchang@gmail.com</a> directly on their website</td>
-<td align="center">+63 977 190 65 00; +6348 434 98 86</td>
-</tr>
-<tr class="even">
-<td>3/11-3/14</td>
-<td align="center">El Nido, Palawan</td>
-<td align="center"><a href="https://goo.gl/maps/pQbHR8iH4dor9HQD6">Residencia Katrina Bed and Breakfast</a></td>
-<td align="center">Booked by <a href="mailto:deshchang@gmail">deshchang@gmail</a> on Booking.com</td>
-<td align="center">+63 9178089987</td>
-</tr>
-<tr class="odd">
-<td>3/14</td>
-<td align="center">El Nido airport to Cebu Mactan Int’l Airport</td>
-<td align="center">AirSwift T60336 (Time: 13:00)</td>
-<td align="center">Booked by <a href="mailto:c.h.w.chang@gmail">c.h.w.chang@gmail</a> directly on airline’s website</td>
-<td align="center">+63 917 816 8763</td>
-</tr>
-<tr class="even">
-<td>3/14-3/15</td>
-<td align="center">Cebu City, Cebu</td>
-<td align="center"><a href="https://goo.gl/maps/1cW1xVHn1ApFADWB7">Hotel Elizabeth Cebu</a></td>
-<td align="center">Booked on Agoda by <a href="mailto:c.h.w.chang@gmail">c.h.w.chang@gmail</a></td>
-<td align="center">+63 322318000</td>
-</tr>
-<tr class="odd">
-<td>3/15</td>
-<td align="center">Mactan Int’l Airport to Taipei Airport</td>
-<td align="center">EVA Airways BR 282 (Time: 11:10am - 14:00)</td>
-<td align="center">Booked on Orbitz by <a href="mailto:c.h.w.chang@gmail">c.h.w.chang@gmail</a></td>
-<td align="center"></td>
-</tr>
-<tr class="even">
-<td>3/15-3/16</td>
-<td align="center">Layover in Taipei</td>
-<td align="center"><a href="https://goo.gl/maps/pSte7nmHpLZLfP9Y9">iTaipei Service Apartment</a></td>
-<td align="center">Booked by <a href="mailto:deshchang@gmail">deshchang@gmail</a> on agoda.com</td>
-<td align="center">+886225527070</td>
-</tr>
-<tr class="odd">
-<td>3/16</td>
-<td align="center">Taipei to LAX</td>
-<td align="center">EVA Airways BR 12 (Time: 19:20)</td>
-<td align="center">Booked on Orbitz by <a href="mailto:c.h.w.chang@gmail">c.h.w.chang@gmail</a></td>
-<td align="center"></td>
-</tr>
-</tbody>
-</table>
-</div>
-<div id="insurance-information" class="section level3">
-<h3>Insurance information</h3>
-<ul>
-<li>Medical evacuation insurance through <a href="https://eservices.europassistance-usa.com/sites/TheStandard/Pages/MembersHome.aspx">The Standard</a>, also known as Europ Assistance/Generali Global Assistance
-<ul>
-<li>Phone: +1-240-330-1380 (International hotline)/+1-866-455-9188 (US hotline)</li>
-<li>Email: <a href="mailto:ops@gga-usa.com">ops@gga-usa.com</a></li>
-<li>Pomona College (through the Claremont Colleges) group ID: D2STD / Activation code: 181002</li>
-<li>Pomona College contacts: <a href="mailto:Cristal.Hernandez@claremont.edu">Cristal.Hernandez@claremont.edu</a>; <a href="mailto:Angelica.Zaragoza@claremont.edu">Angelica.Zaragoza@claremont.edu</a></li>
-</ul></li>
-<li>Anthem BlueCross Blue Shield Global Core coverage
-<ul>
-<li>Group number: 1873JA</li>
-<li>Coverage through The Claremont Colleges (via Pomona College) for both of us</li>
-</ul></li>
-</ul>
 </div>
 </div>
 
@@ -696,7 +569,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -704,6 +577,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

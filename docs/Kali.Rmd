@@ -1,10 +1,17 @@
 ---
-title: "Caring for Kalimirchi"
-author: "The Deshchangs"
+title: "Caring for Kali"
+author: "Nikhil and Char"
 date: "`r Sys.Date()`"
 output: html_document
 ---
 
+# Overview about Kali
+
+* Kali is currently eating 1 (rice) cup of kibble with 1/4 cup of home-made wet food.
+* She usually poops once in the morning and once at night. Sometimes she poops more when she is excited by other dogs' smells.
+* Kali does not have very good recall. She will get excited and distracted by other dogs and animals such as lizards, squirrels, etc.
+
+<!--
 ## Care guide for Kali
 
 ### Feeding and general care
@@ -48,6 +55,23 @@ Toxic foods for dogs [include](https://www.akc.org/expert-advice/nutrition/fruit
 * avocado
 * stone fruit pits
 * citrus (not toxic but unpleasant for them)
+-->
+
+## Veterinary information
+
+*Current veterinarian*
+
+[Western University Pet Health Center](https://pethealthcenter.westernu.edu/), phone:  (909) 865-2433 - last check-up on January 6, 2022. Kali is up-to-date on all of her vaccines.
+
+*Past veterinarians*
+
+* Initial veterinarian in Claremont: Dr. Charanpreet Boparai at [Alleve Animal Hospital](http://allevevet.com/staff.php) (check-up in October 2019 with care through fall 2020 when she shifted to Western Pet Health Center)
+* Veterinarian in Tennessee: Dr. Cathy Carr at [Powell Animal Hospital](https://www.powellanimalhospital.com/)
+* Dr. Boparai's office should have all of the relevant documents from Kali's treatments in Tennessee.
+
+## Microchip information
+
+Kali is microchipped with the brand "Save this Life". Her microchip ID is `991001001483928`. You can see her [online profile here](https://www.savethislife.com/991001001483928).
 
 ### Commands
 
@@ -124,6 +148,7 @@ Kali knows the following commands. The commands in **bold** have high adherence;
 * Footsie
     + come between legs and stand on feet
 
+<!--
 ### Walking & Exercise
 
 * Kali goes outside twice a day (on two walks, or a walk + hike or run).
@@ -156,40 +181,7 @@ Kali knows the following commands. The commands in **bold** have high adherence;
     + Contact phone: 408-371-6252
     + Address: 905 Dell Ave, Campbell, CA 95008
     + Secondary Location (open overnight on weekdays and all day on weekends): 601 Showers Drive, Mountain View, CA 94040
-* For current and past veterinary information:
-    + Veterinarian in Claremont: Dr. Charanpreet Boparai at [Alleve Animal Hospital](http://allevevet.com/staff.php) (check-up in October 2019)
-    + Veterinarian in Tennessee: Dr. Cathy Carr at [Powell Animal Hospital](https://www.powellanimalhospital.com/)
-    + Dr. Boparai's office should have all of the relevant documents from Kali's treatments in Tennessee. Her only treatment in California was new patient intake and a re-up on standard vaccinations.
-  
-## Char and Nikhil's contact information in the Philippines
-
-### Itinerary
-
-| Date     | Destination      | Travel specifics | Email/Address      | Phone      |
-|----------|:-------------:|:------------:|:----------:|:----------:|
-| 3/4      | LAX Airport to Taipei then Cebu Mactan Int'l Airport   | EVA Airways BR 11/281 | deshchang@gmail.com | Booked on Orbitz by c.h.w.chang@gmail |
-| 3/6-3/9| Mactan City, Cebu | [AirBnB Unit](https://www.airbnb.com/rooms/15309529) | [Address](https://goo.gl/maps/5Kjm8byHPzMBzDKE7) | Host: Roland Konrad (tel:+639054772059) |
-| 3/9      | Mactan Int'l Airport to Coron, Palawan (Busuanga airport) | Cebu Pacific DG 6064 (Time: 7:25 - 9:00) | Booked by deshchang@gmail directly with airline | |
-| 3/9-3/11 | Coron, Palawan | [One Averee Bay Hotel](https://goo.gl/maps/kbgDxXrZoGimcAg4A) | Booked by deshchang@gmail.com on Booking.com | +63 919 391 1836 |
-|3/11      | Coron (Busuanga) to El Nido, Palawan | [Palawan Days Ferry](https://www.palawandays.com/product/fast-craft-el-nido-coron-busuanga-palawan?) (Time: 12:00pm) | Booked by deshchang@gmail.com directly on their website | +63 977 190 65 00; +6348 434 98 86 |
-| 3/11-3/14 | El Nido, Palawan | [Residencia Katrina Bed and Breakfast](https://goo.gl/maps/pQbHR8iH4dor9HQD6)  | Booked by deshchang@gmail on Booking.com | +63 9178089987 |
-| 3/14 | El Nido airport to Cebu Mactan Int'l Airport | AirSwift T60336 (Time: 13:00) | Booked by c.h.w.chang@gmail directly on airline's website | +63 917 816 8763 |
-| 3/14-3/15 | Cebu City, Cebu | [Hotel Elizabeth Cebu](https://goo.gl/maps/1cW1xVHn1ApFADWB7) | Booked on Agoda by c.h.w.chang@gmail | +63 322318000 |
-| 3/15 | Mactan Int'l Airport to Taipei Airport | EVA Airways BR 282 (Time: 11:10am - 14:00) | Booked on Orbitz by c.h.w.chang@gmail | |
-| 3/15-3/16|  Layover in Taipei | [iTaipei Service Apartment](https://goo.gl/maps/pSte7nmHpLZLfP9Y9) | Booked by deshchang@gmail on agoda.com | +886225527070 |
-| 3/16 | Taipei to LAX | EVA Airways BR 12 (Time: 19:20) | Booked on Orbitz by c.h.w.chang@gmail | |
-
-
-### Insurance information
-
-* Medical evacuation insurance through [The Standard](https://eservices.europassistance-usa.com/sites/TheStandard/Pages/MembersHome.aspx), also known as Europ Assistance/Generali Global Assistance
-    + Phone: +1-240-330-1380 (International hotline)/+1-866-455-9188 (US hotline)
-    + Email: ops@gga-usa.com
-    + Pomona College (through the Claremont Colleges) group ID: D2STD / Activation code: 181002
-    + Pomona College contacts: Cristal.Hernandez@claremont.edu; Angelica.Zaragoza@claremont.edu
-* Anthem BlueCross Blue Shield Global Core coverage
-    + Group number: 1873JA
-    + Coverage through The Claremont Colleges (via Pomona College) for both of us
+-->
 
 
 
