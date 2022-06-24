@@ -7,9 +7,27 @@ output: html_document
 
 # Overview about Kali
 
-* Kali is currently eating 1 (rice) cup of kibble with 1/4 cup of home-made wet food.
+* Kali is currently eating one Ziploc bag of kibble (about 80g) with 1 tbsp of home-made wet food each meal. She eats a meal in the morning (anywhere between 7-9am) and at night (anywhere between 5-7pm).
+* After she eats, we put her toys away (up on a chair or somewhere she can't reach) because if she roughhouses with her toys, she sometimes vomits up her food. She will end up eating her vomit usually, but it's just kind of gross.
+* We wash Kali's water bowl every morning and her food bowl after each meal. She gets filtered tap water.
 * She usually poops once in the morning and once at night. Sometimes she poops more when she is excited by other dogs' smells.
-* Kali does not have very good recall. She will get excited and distracted by other dogs and animals such as lizards, squirrels, etc.
+* Kali does not have very good recall. She is very spotty at responding to `Come here` or `C'mere`! She will get excited and distracted by other dogs and animals such as lizards, squirrels, etc.
+* Kali walks once in the morning (anytime between 7am - 10am) and once in the evening (anytime between 6-9pm). We usually walk her for anything between 4-8 blocks (maybe 0.5 - 1 mile). 
+* In addition to her walks, we let Kali in the backyard first thing in the morning and in the evening after dinner. If we are home, we also let her play in the backyard in the afternoon (though if it is too hot, don't worry about that!).
+
+### Snacks
+
+* Kali enjoys small treats like breaking up the disc-shaped treats into smaller pieces.
+* Kali enjoys eating:
+  + watermelon (small pieces)
+  + carrot (sometimes, tiny pieces)
+  + apple (sometimes, tiny pieces; she likes sweet apples like Honeycrisp rather than tangy ones like Pink Lady)
+  + white nectarine (small pieces)
+  + banana (small pieces and small quantity)
+  + blueberries (sometimes we have to smush one open to entice her)
+  + mango 
+* We sometimes (usually we've been forgetting) give her treats when she behaves well on walks (we just put some treats in a Ziploc bag then give her individual treats on the walk). She gets 1 treat for each instance of good behavior (e.g. ignoring a squirrel that she was inclined to chase).
+* She can also have a small fruit or food treat in the afternoon if you'd like. We don't do this everyday so no worries if you don't have time to do this. She might also be fussy and drop the food on the ground anyways.
 
 <!--
 ## Care guide for Kali
@@ -67,7 +85,7 @@ Toxic foods for dogs [include](https://www.akc.org/expert-advice/nutrition/fruit
 
 * Initial veterinarian in Claremont: Dr. Charanpreet Boparai at [Alleve Animal Hospital](http://allevevet.com/staff.php) (check-up in October 2019 with care through fall 2020 when she shifted to Western Pet Health Center)
 * Veterinarian in Tennessee: Dr. Cathy Carr at [Powell Animal Hospital](https://www.powellanimalhospital.com/)
-* Dr. Boparai's office should have all of the relevant documents from Kali's treatments in Tennessee.
+* Western University Pet Health Center should have all of the relevant documents from Kali's treatments in Tennessee.
 
 ## Microchip information
 
@@ -89,7 +107,7 @@ Kali knows the following commands. The commands in **bold** have high adherence;
     + Point your hand or two fingers toward the ground
 * **Stay**
     + Make a flat palm (like a stop sign) with your hand in front of her face
-* **Leave it**
+* *Leave it*
     + Used to get her to drop the ball or ignore the exciting squirrel (more difficult)
     + No hand signal
 * *Come here*
