@@ -7,19 +7,22 @@ output: html_document
 
 # Overview about Kali
 
-* Kali is currently eating one Ziploc bag of kibble (about 80g) with 1 tbsp of home-made wet food each meal. She eats a meal in the morning (anywhere between 7-9am) and at night (anywhere between 5-7pm).
+* Kali is currently eating 60 g of Taste of the Wild Salmon kibble, 20g of the Taste of the Wild Lamb, with 1 tbsp (around 15-20g) of home-made wet food each meal. She eats a meal in the morning (anywhere between 7-9am) and at night (anywhere between 5-7pm).
 * After she eats, we put her toys away (up on a chair or somewhere she can't reach) because if she roughhouses with her toys, she sometimes vomits up her food. She will end up eating her vomit usually, but it's just kind of gross.
+  + This may not be so relevant at home in SB if she goes on a walk immediately or shortly after a meal.
 * We wash Kali's water bowl every morning and her food bowl after each meal. She gets filtered tap water.
-* She usually poops once in the morning and once at night. Sometimes she poops more when she is excited by other dogs' smells.
-* Kali does not have very good recall. She is very spotty at responding to `Come here` or `C'mere`! She will get excited and distracted by other dogs and animals such as lizards, squirrels, etc.
 * Kali walks once in the morning (anytime between 7am - 10am) and once in the evening (anytime between 6-9pm). We usually walk her for anything between 4-8 blocks (maybe 0.5 - 1 mile). 
-* In addition to her walks, we let Kali in the backyard first thing in the morning and in the evening after dinner. If we are home, we also let her play in the backyard in the afternoon (though if it is too hot, don't worry about that!).
+* After her walk, we wipe her butt if she pooped with a wet paper towel and her paws with a dog foot towel (dedicated dish towel).
+* She usually poops once in the morning and once at night. Sometimes she poops more when she is excited by other dogs' smells.
+* In addition to her walks, we let Kali in the backyard first thing in the morning and in the evening after dinner. If we are home, we also let her play in the backyard in the afternoon.
+* Kali has very poor recall. She is very spotty at responding to `Come here` or `C'mere`! She will get excited and distracted by other dogs and animals such as lizards, squirrels, etc. So we do not let her off-leash unless she is inside a fully enclosed back yard or the dog park.
+* We comb Kali when there are obviously sticks and suchlike in her legs using the Furminator fur rake.
 
 ### Snacks
 
-* Kali enjoys small treats like breaking up the disc-shaped treats into smaller pieces.
+* Kali enjoys small treats like breaking up the jerky treats into smaller pieces.
 * Kali enjoys eating:
-  + watermelon (small pieces)
+  + watermelon (small pieces, cannot be the rind, lol)
   + carrot (sometimes, tiny pieces)
   + apple (sometimes, tiny pieces; she likes sweet apples like Honeycrisp rather than tangy ones like Pink Lady)
   + white nectarine (small pieces)
@@ -110,7 +113,8 @@ Kali knows the following commands. The commands in **bold** have high adherence;
 * *Leave it*
     + Used to get her to drop the ball or ignore the exciting squirrel (more difficult)
     + No hand signal
-* *Come here*
+* Come here
+    + Squat down low and wave your hands
     + Wave your hand toward your body
 * **Release** (to end a successful stay or wait)
 * *Stand* (stand up from a down, useful for paw washing)
