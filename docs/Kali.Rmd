@@ -12,7 +12,7 @@ output: html_document
   + This may not be so relevant at home in SB if she goes on a walk immediately or shortly after a meal.
 * We wash Kali's water bowl every morning and her food bowl after each meal. She gets filtered tap water.
 * Kali walks once in the morning (anytime between 7am - 10am) and once in the evening (anytime between 6-9pm). We usually walk her for anything between 4-8 blocks (maybe 0.5 - 1 mile). 
-* After her walk, we use a wet paper towel or a doggy wet wipe to 1) wipe her eye crusties, 2) wipe under her chin, 3) wipe her pee-pee area, then 4) whipe her butt if she pooped.
+* After her walk, we use a wet paper towel or a doggy wet wipe to 1) wipe her eye crusties, 2) wipe under her chin, 3) wipe her pee-pee area, then 4) wipe her butt if she pooped.
 * We wipe her paws with a dog foot towel (dedicated dish towel). If she's really dirty, we use the paw wash.
 * She usually poops once in the morning and once at night. Sometimes she poops more when she is excited by other dogs' smells.
 * In addition to her walks, we let Kali in the backyard first thing in the morning and in the evening after dinner. If we are home, we also let her play in the backyard in the afternoon.
